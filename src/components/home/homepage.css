@@ -1,0 +1,16 @@
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-main-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-sub-text {
+  font-weight: 500;
+  font-size: 1.75rem;
+}
