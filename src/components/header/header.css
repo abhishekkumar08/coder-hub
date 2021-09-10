@@ -2,10 +2,18 @@
   font-weight: 700;
   display: flex;
   align-content: center;
-  background-color: #fffffd;
-  height: 14vh;
+  background-color: #ffb5ca;
+  height: 10vh;
   width: 100%;
   font-size: 1.5rem;
+}
+
+.header a {
+  color: #29303e;
+}
+
+.header a:hover {
+  text-decoration: underline;
 }
 
 .logo-header {
@@ -20,4 +28,10 @@
   justify-content: space-evenly;
   width: 25%;
   align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    display: none;
+  }
 }

@@ -1,8 +1,11 @@
 .home-content {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  background-color: #fdf0ff;
+  padding: 4rem 0.5rem 0 0.5rem;
+  height: 72vh;
 }
 
 .home-main-logo {
@@ -13,4 +16,42 @@
 .home-sub-text {
   font-weight: 500;
   font-size: 1.75rem;
+}
+.home-logo-text {
+  font-weight: 700;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.signin-button {
+  border-style: none;
+  width: 10rem;
+  margin-top: 1rem;
+  line-height: 3rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #ffb5ca;
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px #de9db0, -5px -5px 10px #ffcde4;
+}
+
+.signin-button:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+@media only screen and (max-width: 600px) {
+  .home-logo-text {
+    font-size: 1.5rem;
+  }
+  .home-sub-text {
+    font-size: 1.5rem;
+  }
+  .home-content{
+    height: 89vh;
+  }
 }

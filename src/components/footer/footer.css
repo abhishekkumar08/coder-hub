@@ -1,0 +1,95 @@
+.footer-bar {
+  display: flex;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #ffb5ca;
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+.contact-social {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  display: flex;
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  transition: transform 0.5s;
+}
+
+.contact-icon:hover {
+  transform: scale(0.95);
+}
+
+.contact-social a {
+  display: flex;
+  justify-content: center;
+  background-color: #ffb5ca;
+  margin-right: 0.75rem;
+  width: 7%;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px #de9db0, -5px -5px 10px #ffcde4;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: transform 0.5s;
+}
+
+.contact-social a:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+
+  border: 1px solid rgba(0, 0, 0, 0.01);
+  transform: translateY(2px);
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.footer-bar div {
+  width: 33%;
+}
+
+.contact-gmail:hover {
+  color: #e34133;
+}
+.contact-dev:hover {
+  color: #00c548;
+}
+.contact-in:hover {
+  color: #0a66c2;
+}
+.contact-gh:hover {
+  color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-bar {
+    display: none;
+  }
+
+  .contact-social a {
+    width: 25%;
+  }
+  .contact-social {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-text {
+    font-size: 1.25rem;
+  }
+  .contact-icon{
+    width: 20px;
+    height: 20px;
+  }
+}

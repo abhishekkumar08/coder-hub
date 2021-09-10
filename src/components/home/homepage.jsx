@@ -8,19 +8,14 @@ const Homepage = () => {
           <div>
             <img src={logo} alt="logo" />
           </div>
-          <div
-            style={{
-              fontWeight: "700",
-              textAlign: "center",
-              fontSize: "2.5rem",
-            }}
-          >
-            Coderhub
-          </div>
+          <div className="home-logo-text">Coderhub</div>
         </div>
         <div className="home-sub-text">
           Coder hub is a place where you can get all the material related to
-          your placements🚀✨
+          your placements.🚀✨
+        </div>
+        <div>
+          <button className="signin-button" onClick={() => console.log("Sign in clicked")}>Signin</button>
         </div>
       </div>
     </div>

@@ -7,12 +7,13 @@ import Login from "./components/login/login";
 import Signup from "./components/signup/signup";
 import Header from "./components/header/header";
 import Resources from "./components/resources/resources";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
     <>
-      <Header />
       <div className="App">
+        <Header />
         <Switch>
           <Route exact path="/" component={Homepage} />
           <Route path="/problems" component={Problems} />
@@ -21,6 +22,7 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
         </Switch>
+        <Footer />
       </div>
     </>
   );
