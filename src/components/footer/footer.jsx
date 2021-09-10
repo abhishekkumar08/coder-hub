@@ -1,11 +1,5 @@
 import "./footer.css";
-import {
-  SiGmail,
-  SiLinkedin,
-  SiGithub,
-  SiDevDotTo,
-  SiInstagram,
-} from "react-icons/si";
+import { SiGmail, SiLinkedin, SiGithub, SiDevDotTo } from "react-icons/si";
 
 const Footer = () => {
   return (
