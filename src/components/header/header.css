@@ -2,14 +2,15 @@
   font-weight: 700;
   display: flex;
   align-content: center;
-  background-color: #ffb5ca;
+  background-color: #1a202c;
   height: 10vh;
   width: 100%;
   font-size: 1.5rem;
+  color: #fff;
 }
 
 .header a {
-  color: #29303e;
+  color: #fff;
 }
 
 .header a:hover {
@@ -32,6 +33,11 @@
 
 @media only screen and (max-width: 600px) {
   .header {
-    display: none;
+    flex-direction: column;
+    height: 50vh;
+  }
+  .logo-header {
+    flex-direction: column;
+    z-index: 1000;
   }
 }

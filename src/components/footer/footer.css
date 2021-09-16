@@ -5,9 +5,10 @@
 }
 
 .footer {
-  background-color: #ffb5ca;
+  background-color: #1a202c;
   margin-bottom: 0;
   margin-top: auto;
+  color: #fff;
 }
 
 .contact-social {
@@ -18,7 +19,7 @@
 .contact-icon {
   width: 30px;
   height: 30px;
-  color: #fff;
+  color: #000;
   display: flex;
   margin-bottom: 0.75rem;
   margin-top: 0.75rem;
@@ -32,11 +33,12 @@
 .contact-social a {
   display: flex;
   justify-content: center;
-  background-color: #ffb5ca;
+  background-color: #4fd1c5;
   margin-right: 0.75rem;
   width: 7%;
   border-radius: 1rem;
-  box-shadow: 5px 5px 10px #de9db0, -5px -5px 10px #ffcde4;
+  box-shadow: 5px 5px 10px rgba(79, 209, 196, 0.795),
+    -5px -5px 10px rgba(79, 209, 196, 0.637);
   border: 1px solid rgba(0, 0, 0, 0);
   transition: transform 0.5s;
 }
@@ -70,7 +72,7 @@
   color: #0a66c2;
 }
 .contact-gh:hover {
-  color: #000;
+  color: #fff;
 }
 
 @media only screen and (max-width: 600px) {
@@ -88,7 +90,7 @@
   .footer-text {
     font-size: 1.25rem;
   }
-  .contact-icon{
+  .contact-icon {
     width: 20px;
     height: 20px;
   }

@@ -3,9 +3,10 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  background-color: #fdf0ff;
+  background-color: #171923;
   padding: 4rem 0.5rem 0 0.5rem;
   height: 72vh;
+  color: #fff;
 }
 
 .home-main-logo {
@@ -31,10 +32,11 @@
   cursor: pointer;
   font-size: 1.5rem;
   font-weight: 700;
-  background-color: #ffb5ca;
-  color: #fff;
+  background-color: #4fd1c5;
+  color: #000;
   border-radius: 1rem;
-  box-shadow: 5px 5px 10px #de9db0, -5px -5px 10px #ffcde4;
+  box-shadow: 5px 5px 10px rgba(79, 209, 196, 0.795),
+    -5px -5px 10px rgba(79, 209, 196, 0.637);
 }
 
 .signin-button:hover {
@@ -51,7 +53,7 @@
   .home-sub-text {
     font-size: 1.5rem;
   }
-  .home-content{
-    height: 89vh;
+  .home-content {
+    height: 79.5vh;
   }
 }
